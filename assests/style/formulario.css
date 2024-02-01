@@ -99,17 +99,17 @@ main {
     text-align: center;
 }
 
-@media (min-width: 413px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     #conteudo__formulario {
         width: 413px;
-        padding: 0 25px;
-        height: 140vh;
+        padding: 0 55px;
+        height: 157vh;
     }
 
     #formulario {
         width: 413px;
-        padding: 0 25px;
+        padding: 0 55px;
     }
 
     #formulario__pessoal {

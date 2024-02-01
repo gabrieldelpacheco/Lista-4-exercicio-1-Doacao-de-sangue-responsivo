@@ -50,7 +50,7 @@
     width: 16px;
 }
 
-@media (min-width: 413px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
     #rede__social_dev {
         padding: 5px;
     } 

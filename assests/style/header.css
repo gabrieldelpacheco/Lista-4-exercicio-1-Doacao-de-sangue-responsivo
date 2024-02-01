@@ -28,7 +28,7 @@ header {
     transition: 0.5s;
 }
 
-@media (min-width: 413px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
     header {
         justify-content: center;
     }

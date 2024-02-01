@@ -39,14 +39,14 @@ p {
     transition: 0.5s;
 }
 
-@media (min-width: 413px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
     #conteudo {
         padding: 0 30px;
-        height: 140vh;
+        height: 175vh;
     }
 }
 @media (orientation: landscape) {
     #conteudo {
-        height: 200vh;
+        height: 255vh;
     }
 }

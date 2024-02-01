@@ -14,7 +14,11 @@ main {
 .img_paragrafo {
     width: 32px;
 }
-
+@media (min-width: 320px) and (max-width: 480px) {
+    .conteudo {
+        height: 150vh;
+    }
+}
 @media (orientation: landscape) {
     .conteudo {
         height: 200vh;
