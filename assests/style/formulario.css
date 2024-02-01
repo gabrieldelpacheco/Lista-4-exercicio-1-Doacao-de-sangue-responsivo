@@ -9,7 +9,7 @@ main {
     flex-direction: column;
     width: 600px;
     gap: 15px;
-    height: 100vh;
+    height: 81vh;
 }
 
 #title__doacao {
@@ -102,17 +102,21 @@ main {
 @media (min-width: 320px) and (max-width: 480px) {
 
     #conteudo__formulario {
-        padding: 0 40px;
-        height: 165vh;
+        padding: 0 10px;
+        height: 160vh;
     }
 
     #formulario {
         padding: 0 10px;
-        justify-content: flex-start;
     }
 
     #formulario__pessoal {
         gap: 10px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
     }
     .identification {
         display: flex;
