@@ -1,0 +1,52 @@
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    padding: 0 20px;
+    text-align: justify;
+    height: 100vh;
+    gap: 10px;
+}
+
+#conteudo__title {
+    font-size: 1.8rem;
+}
+
+.conteudo__subtitle {
+    font-size: 1.6rem;
+}
+
+.conteudo__ul {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+#conteudo__link--formulario:hover {
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+@media (min-width: 413px) and (max-width: 600px) {
+    #conteudo {
+        padding: 0 30px;
+        height: 140vh;
+    }
+}
+@media (orientation: landscape) {
+    #conteudo {
+        height: 200vh;
+    }
+}

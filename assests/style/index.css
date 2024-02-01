@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 600px;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.img_paragrafo {
+    width: 32px;
+}
+
+@media (orientation: landscape) {
+    .conteudo {
+        height: 200vh;
+    }
+}

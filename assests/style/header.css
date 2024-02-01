@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px 5px;
+    width: 100%;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 20px;
+}
+
+#menu__li {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.menu__li--li a{
+    color: black;
+}
+
+.menu__li--li:hover {
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+@media (min-width: 413px) and (max-width: 600px) {
+    header {
+        justify-content: center;
+    }
+    #img__header {
+        display: none;
+    }        
+}

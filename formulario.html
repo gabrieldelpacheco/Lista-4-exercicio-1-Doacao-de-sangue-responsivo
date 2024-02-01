@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/style/style.css">
+    <link rel="stylesheet" href="assests/style/header.css">
+    <link rel="stylesheet" href="assests/style/footer.css">
+    <link rel="stylesheet" href="assests/style/eventos.css">
+    <link rel="stylesheet" href="assests/style/formulario.css">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <header>
+        <img id="img__header" src="assests/imagens/logo_hospital64.png" alt="">
+        <nav class="menu">
+            <ul id="menu__li">
+                <li class="menu__li--li"><a href="eventos.html">EVENTOS</a></li>
+                <li class="menu__li--li"><a href="index.html">SOBRE</a></li>
+                <li class="menu__li--li"><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="conteudo__formulario">
+            <h2 id="title__doacao">Quer se um doador e salvar vidas?</h2>
+            <p id="paragrafo__doacao">&nbsp; A sua generosidade pode salvar vidas! Ao preencher este formulário para
+                doação de sangue, você está
+                dando um passo significativo em direção a um ato humanitário que faz toda a diferença. A doação de
+                sangue é
+                crucial para o bem-estar de muitas pessoas que enfrentam situações de emergência, cirurgias, tratamentos
+                contra o câncer e outras condições médicas. Cada doação conta, e o seu gesto solidário pode ser a
+                esperança
+                que alguém tanto precisa. Por favor, forneça as informações solicitadas com precisão e, ao se tornar um
+                doador, saiba que está contribuindo para a construção de uma comunidade mais saudável e unida.
+                Agradecemos
+                antecipadamente pelo seu comprometimento e bondade. Sua doação de sangue é um ato de amor e cuidado que
+                faz
+                toda a diferença no mundo.</p>
+            <p id="aviso"><strong>IMPORTANTE!</strong> Todas as informações foram criadas pelo ChatGpt.</p>
+            <form id="formulario">
+                <section id="formulario__pessoal">
+                    <p>Dados pessoais:</p>
+                    <div class="identification">
+                        <div class="input__nome">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" placeholder="digite seu nome" id="nome">
+                        </div>
+                        <div class="input__cpf">
+                            <label for="cpf">CPF</label>
+                            <input type="number" id="cpf" placeholder="000.000.000-00">
+                        </div>
+                    </div>
+                    <div class="origin">
+                        <div class="date__birth">
+                            <label for="data_birth">Data de nascimento</label>
+                            <input type="date">
+                        </div>
+                        <div class="sexy">
+                            <label for="gender">Gênero</label>
+                            <select name="" id="gender">
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="transgenero">Transgenero</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts__email">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="digite seu e-mail." id="email">
+                        </div>
+                        <div class="contacts__fone">
+                            <label for="fone">Telefone</label>
+                            <input type="tel" placeholder="(DD) - 1111-11111" id="fone">
+                        </div>
+                    </div>
+                </section>
+                <p class="subtitle__form">Endereço:</p>
+                <section id="address">
+                    <div class="location">
+                        <div class="location__logradouro">
+                            <label for="logradouro">Logradouro</label>
+                            <input type="text" id="logradouro" placeholder="digite nome da rua, av e etc...">
+                        </div>
+                        <div class="location__cep">
+                            <label for="cep">CEP</label>
+                            <input type="number" id="cep">
+                        </div>
+                    </div>
+                    <div class="location__region">
+                        <div class="location__uf">
+                            <label for="uf">Estado</label>
+                            <select name="" id="uf">
+                                <option value="" class="state__region">Região Norte</option>
+                                <option value="ac">Acre</option>
+                                <option value="ap">Amapá</option>
+                                <option value="am">Amazonas </option>
+                                <option value="pa">Pará </option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rr">Roraima</option>
+                                <option value="to">Tocantins </option>
+                                <option value="" class="state__region">Região Nordeste</option>
+                                <option value="al">Alagoas </option>
+                                <option value="ba">Bahia </option>
+                                <option value="ce">Ceará </option>
+                                <option value="ma">Maranhão </option>
+                                <option value="pb">Paraíba </option>
+                                <option value="pe">Pernambuco </option>
+                                <option value="pi">Piauí </option>
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="se">Sergipe</option>
+                                <option value="" class="state__region">Região Sudeste</option>
+                                <option value="es">Espírito Santo</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="" class="state__region">Região Sul</option>
+                                <option value="pr">Paraná </option>
+                                <option value="rs">Rio Grande do Su</option>
+                                <option value="sc">Santa Catarina</option>
+                                <option value="" class="state__region">Região Centro-Oeste</option>
+                                <option value="df">Distrito Federal</option>
+                                <option value="go">Goiás</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+                            </select>
+                        </div>
+                        <div class="location__city">
+                            <label for="city">Cidade</label>
+                            <input type="text" placeholder="digite o nome de sua cidade" id="city">
+                        </div>
+                    </div>
+                    <div class="donation">
+                        <div id="donation__organ">
+                            <p class="donation__question">Quer ser doador de órgão?</p>
+                            <div class="donation__question--input">
+                                <div>
+                                    <input type="radio" id="yes" value="yes" name="donation__organ">
+                                    <label for="yes"> Sim</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="no" value="no" name="donation__organ">
+                                    <label for="no">Não</label>
+                                </div>
+                            </div>
+                            </select>
+                        </div>
+                        <div id="donation__blood">
+                            <p class="donation__question">Quer ser doador de sangue?</p>
+                            <div class="donation__question--input">
+                                <div>
+                                    <input type="radio" id="sim" value="sim" name="donation__blood">
+                                    <label for="yes">Sim</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="no" value="no" name="donation__blood">
+                                    <label for="no">Não</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="type__blood__section">
+                        <label for="type__blood" id="type__blood">Qual o seu tipo sanguíneo?</label>
+                        <select name="tipo__sanguineo" id="tipo__sanguineo">
+                            <option value="indefinido">Indefinido</option>
+                            <option value="a+">A+</option>
+                            <option value="b+">B+</option>
+                            <option value="o+">O+</option>
+                            <option value="ab+">AB+</option>
+                            <option value="a-">A-</option>
+                            <option value="b-">B-</option>
+                            <option value="o-">O-</option>
+                            <option value="ab">AB</option>
+                        </select>
+                    </div>
+                </section>
+                <div id="submit"><input type="submit" id="enviar"></div>
+            </form>
+        </section>
+    </main>
+    <footer id="rodape">
+        <section id="info__dev">
+            <section id="info__dev--paragrafo">
+                <p>Desenvolvedor Gabriel de Oliveira Pacheco</p>
+                <p>Projeto de ferias do curso FuturoDev do FMT23.</p>
+            </section>
+            <section id="rede__social_dev">
+                <p id="rede__social_dev--paragrafo">Links</p>
+                <ul id="rede__social__dev--ul">
+                    <li class="rede__social--li"><a class="rede__social__dev--a"
+                            href="https://www.instagram.com/gabrielpachecodev/"><img class="rede__social-img"
+                                src="assests/imagens/contato/instagram32.png" alt="">Instagram</a></li>
+                    <li class="rede__social--li"><a class="rede__social_dev--a"
+                            href="https://github.com/gabrieldelpacheco"><img class="rede__social-img"
+                                src="assests/imagens/contato/github32.png" alt="">GitHub</a></li>
+                    <li class="rede__social--li"><a class="rede__social_dev--a"
+                            href="https://www.linkedin.com/in/gabriel-de-oliveira-pacheco-1b581271/"><img
+                                class="rede__social-img" src="assests/imagens/contato/linkedin32.png"
+                                alt="">Linkedin</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <p id="copyright">Copyright<img id="copyright_img" src="assests/imagens/copyright322.png" alt=""> 2024 - Todos
+            os Direitos Reservados.</p>
+    </footer>
+</body>
+
+</html>

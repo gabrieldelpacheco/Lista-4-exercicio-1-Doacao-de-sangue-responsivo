@@ -1,0 +1,68 @@
+#rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#info__dev {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+#rede__social_dev {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 5px 0;
+}
+
+#rede__social__dev--ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rede__social--li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.rede__social-img {
+    width: 24px;
+}
+
+#copyright {
+    background-color: black;
+    font-size: .9rem;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#copyright_img {
+    width: 16px;
+}
+
+@media (min-width: 413px) and (max-width: 600px) {
+    #rede__social_dev {
+        padding: 5px;
+    } 
+
+    #info__dev{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    #rede__social_dev--paragrafo {
+        display: none;
+    }
+}

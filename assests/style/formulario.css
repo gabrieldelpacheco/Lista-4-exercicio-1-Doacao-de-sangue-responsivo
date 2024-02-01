@@ -1,0 +1,220 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+#conteudo__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 15px;
+    height: 100vh;
+}
+
+#title__doacao {
+    text-align: center;
+}
+
+#paragrafo__doacao {
+    text-align: justify;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#formulario__pessoal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 2px  solid black;
+}
+
+.identification {
+    display: flex;
+    justify-content: space-between;
+}
+
+.origin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location__region {
+    display: flex;
+    justify-content: space-between;
+}
+
+.state__region {
+    background-color: grey;
+    color: white;
+}
+
+.donation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation__question--input {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+#type__blood {
+    font-size: 1.3rem;
+}
+
+.subtitle__form {
+    padding: 5px 0;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
+
+#enviar {
+    width: 280px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media (min-width: 413px) and (max-width: 600px) {
+
+    #conteudo__formulario {
+        width: 413px;
+        padding: 0 25px;
+        height: 140vh;
+    }
+
+    #formulario {
+        width: 413px;
+        padding: 0 25px;
+    }
+
+    #formulario__pessoal {
+        gap: 10px;
+    }
+    .identification {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input__nome {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input__cpf {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .origin {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .date__birth {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sexy {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contacts__email {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts__fone {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #address {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .location__logradouro {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .location__cep {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .location__region {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .location__uf {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .location__city {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .donation {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .type__blood__section {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (orientation: landscape) {
+    #conteudo__formulario {
+        height: 200vh;
+    }
+}
