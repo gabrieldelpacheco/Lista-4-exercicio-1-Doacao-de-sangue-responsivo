@@ -51,6 +51,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+    #rodape {
+        width: 120vmin;
+    }
+
     #rede__social_dev {
         padding: 5px;
     } 
