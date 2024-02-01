@@ -102,13 +102,11 @@ main {
 @media (min-width: 320px) and (max-width: 480px) {
 
     #conteudo__formulario {
-        width: 350px;
         padding: 0 40px;
         height: 165vh;
     }
 
     #formulario {
-        width: 350px;
         padding: 0 10px;
         justify-content: flex-start;
     }
